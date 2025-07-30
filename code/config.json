@@ -1,0 +1,5 @@
+{
+    "QTH_PRODUCT_KEY": "pe17Ct",
+    "QTH_PRODUCT_SECRET": "RC82dEpXZVZmUllv",
+    "QTH_SERVER": "mqtt://iot-south.acceleronix.io:1883"
+}
