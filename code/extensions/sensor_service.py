@@ -155,7 +155,7 @@ class SensorService(object):
 
                     # 色差超过 200 即认为颜色有变化
                     if pow(sum((dr*dr, dg*dg, db*db)), 0.5) >= 200:
-                        data.update({7: {1: r, 2: g, 3: b}})
+                        # data.update({7: {1: r, 2: g, 3: b}})
                         prev_rgb888 = rgb888
 
             except Exception as e:
